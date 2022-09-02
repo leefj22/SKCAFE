@@ -1,3 +1,58 @@
-h1{
+.coffeebar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: beige;
+  }
+
+  .gCoffee{
+    background-color: #3b1e15;
+    font-size: 40px;
     text-align: center;
-}
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .welcome{
+    background-color: #575c45;
+    font-size: 40px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 40px;
+  }
+
+    .eatcake{
+    background-color: #3b1e15;
+    font-size: 40px;
+    text-align: center;
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .cat{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .dog{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .bunny{
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
