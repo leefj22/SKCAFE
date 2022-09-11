@@ -33,26 +33,125 @@
     padding: 40px;
   }
 
-  .cat{
+  .sprite{
     border-radius: 50%;
     vertical-align: middle;
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    transition: width 2s, height 2s;
   }
 
-  .dog{
+  .sprite:hover {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+  .coconut{
     border-radius: 50%;
     vertical-align: middle;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    transition: width 2s, height 2s;
   }
 
-  .bunny{
+  .coconut:hover {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  .latte{
     border-radius: 50%;
     vertical-align: middle;
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    transition: width 2s, height 2s;
   }
+  
+  .latte:hover {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+
+  .promo{
+    border: none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .seller{
+    text-align: center;
+  }
+
+  .promo{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+  }
+
+  .promo2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tmember{
+    font-size: 30px;
+    color: antiquewhite;
+    font-style: oblique;
+    padding-left: 5cm;
+    padding-bottom: 1cm;
+    background-color: rgb(20, 59, 20);
+  }
+
+  .tmember2{
+    padding-left: 8cm;
+    padding-right: 3cm;
+    padding-top: 1cm;
+  }
+
+  .buttonregister,.buttonlogin {
+    border: none;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:50px;
+  }
+
+.buttonregister{
+  background-color: rgb(20, 59, 20);
+  color: white;
+  border: 3px solid antiquewhite;
+}
+
+.buttonregister:hover {
+  background-color: green;
+  color: white;
+}
+
+.buttonlogin{
+  background-color: rgb(20, 59, 20);
+  color:white;
+  border: 3px solid antiquewhite;
+}
+
+.buttonlogin:hover {
+  background-color: green;
+  color: white;
+}

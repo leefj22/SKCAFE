@@ -1,7 +1,81 @@
-.plant{
-    background-image: url("plantation.jpg");
+.cshopc {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+    font-size: 30px;
+    background-color: rgb(20, 59, 20);
+    opacity: 0.9;
+    border-style: double;
+    border-width: 10px;
+    padding: 1cm 3cm 1cm 3cm;
+}
+
+.cshop {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/*plantation still cannot*/
+.plantb {
+    position: relative;
+    width: 100%;
+}
+
+.plantpic {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:  rgb(20, 59, 20);
+  }
+
+.plantb:hover .overlay {
+    opacity: 1;
+}
+
+.planttext {
+    color: antiquewhite;
+    line-height: 150%;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+/*until here*/
+
+.workertalk {
+    background-color: #3b1e15;
+    font-size: 35px;
+    text-align: center;
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+.goodbean {
+    background-color: #3b1e15;
+    font-size: 35px;
+    text-align: center;
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+.topictext{
+    color: #eae7e7;
 }
