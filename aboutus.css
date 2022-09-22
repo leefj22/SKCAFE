@@ -18,7 +18,6 @@
     color: white;
 }
 
-/*plantation still cannot*/
 .plantb {
     position: relative;
     width: 100%;
@@ -56,7 +55,6 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
-/*until here*/
 
 .workertalk {
     background-color: #3b1e15;
@@ -78,4 +76,26 @@
 
 .topictext{
     color: #eae7e7;
+}
+
+.aboutustable{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.locationus{
+    color: antiquewhite;
+    background-color: rgb(20, 59, 20);
+    font-style: oblique;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+a{
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(111, 111, 240);
 }
